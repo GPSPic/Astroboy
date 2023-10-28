@@ -1,0 +1,15 @@
+---
+interface Props {
+	body: string;
+}
+
+const { body } = Astro.props;
+---
+
+<h2 class="subtitle">{body}</h2>
+
+<style>
+   .subtitle {
+        color: #dbdbdb;
+   }
+</style>

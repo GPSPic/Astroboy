@@ -1,11 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Subtitle from '../components/Subtitle.astro';
+import Title from '../components/Title';
 ---
 
+<Title text="GPSPic is a web developer"/>
+<Subtitle body="Explore his projects, websites and apps, one might be right for you. If not, he can create it!"/>
 <Layout title="Welcome to Astro.">
 	<main>
-		<svg
+		<!-- <svg
 			class="astro-a"
 			width="495"
 			height="623"
@@ -32,7 +36,7 @@ import Card from '../components/Card.astro';
 					<stop offset="1" stop-opacity="0.2"></stop>
 				</linearGradient>
 			</defs>
-		</svg>
+		</svg> -->
 		<h1>Hello <span class="text-gradient">World</span></h1>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
