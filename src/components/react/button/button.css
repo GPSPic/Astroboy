@@ -1,0 +1,12 @@
+.button-dark-true {
+    border: solid 1px white;
+}
+
+.button-dark-false {
+    border: solid 1px black;
+}
+
+.button { 
+    padding: 2px;
+    margin: 3px;
+}
